@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Giriş: Fonksiyonlar ve Tanımlar",
+    "teacher": "Dr. Ayşe Yılmaz",
+    "subject": "Matematik",
+    "date": "2025-11-10",
+    "excerpt": "Fonksiyonların tanımı, bileşimi ve temel özellikleri...",
+    "content": "<p>Bu not dersin ilk bölümünü özetlemektedir. Fonksiyon tanımı, domain ve kodomain kavramları, örnekler ve alıştırmalar yer alır.</p><ul><li>Fonksiyon tanımı</li><li>Bileşim</li><li>Ters fonksiyon</li></ul>"
+  },
+  {
+    "id": 2,
+    "title": "Atomik Yapılar ve Kimyasal Bağlar",
+    "teacher": "Öğr. Gör. Mehmet Arslan",
+    "subject": "Kimya",
+    "date": "2025-10-30",
+    "excerpt": "Atom modeli, periyodik tablo ve bağ türleri hakkında özet bilgiler.",
+    "content": "<p>Bu notta atom yapısı, elektron dizilimleri ve iyonik/kovalent bağlar anlatılmaktadır. Örnek sorular ve çözümler eklendi.</p>"
+  },
+  {
+    "id": 3,
+    "title": "HTML & CSS Temelleri",
+    "teacher": "Arzu Hoca",
+    "subject": "Bilgisayar Bilimleri",
+    "date": "2025-09-15",
+    "excerpt": "Web sayfası yapısına giriş; etiketler, stiller ve basit layout örneği.",
+    "content": "<p>Etiket yapısı, blok ve satır içi elemanlar, temel CSS seçiciler ve basit responsive düzen örneği.</p>"
+  }
+]

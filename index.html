@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Öğrenci Ders Notları</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Öğrenci Ders Notları</h1>
+    <p class="lead">Öğretmenlerin paylaştığı ders notlarını burada görebilirsiniz.</p>
+  </header>
+
+  <main class="container">
+    <div class="controls">
+      <input id="search" type="search" placeholder="Ara (ders, öğretmen, başlık)...">
+      <select id="filter-subject">
+        <option value="">Tüm dersler</option>
+      </select>
+    </div>
+
+    <section id="notes-list" class="notes-grid" aria-live="polite" role="grid">
+      <!-- Grid: ilk sütun ders adı, sonraki sütunlar not hücreleri. JS ile doldurulur -->
+    </section>
+
+    <div id="note-modal" class="modal hidden" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+        <button id="close-modal" class="close">Kapat</button>
+        <h2 id="modal-title"></h2>
+        <p class="meta"><span id="modal-teacher"></span> — <span id="modal-subject"></span> — <time id="modal-date"></time></p>
+        <article id="modal-body"></article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <small>Statik örnek site — öğretmen notları örnek verilerle gösterilmektedir.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
